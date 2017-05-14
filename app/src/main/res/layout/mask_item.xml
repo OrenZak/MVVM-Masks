@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="maskItemViewModel"
+            type="oren.com.masks.viewmodel.MaskItemViewModel" />
+    </data>
+
+
+    <FrameLayout
+        android:id="@+id/mask_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@{maskItemViewModel.maskFrame}"
+        android:padding="@dimen/size_3dp">
+
+        <ImageView
+            android:id="@+id/mask_image"
+            android:layout_width="@dimen/size_60dp"
+            android:layout_height="@dimen/size_60dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:onClick="@{maskItemViewModel::getMask}"
+            android:src="@{maskItemViewModel.imageRes}" />
+
+    </FrameLayout>
+
+
+</layout>

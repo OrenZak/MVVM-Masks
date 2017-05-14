@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/ChosenOren/Downloads/masks/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c30f2eb5bb96d3133870cbc5a3c1d7c666cc2f6d">
+        <dex dex="/Users/ChosenOren/Downloads/masks/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_46be0aff8a957f6f2e72cba2dc4e43a71d2423a2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ChosenOren/Downloads/masks/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/ChosenOren/Downloads/masks/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3d1e862c4fad9c8a684f7b51689909125ebae962/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ChosenOren/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/ChosenOren/Downloads/masks/app/build/intermediates/transforms/dex/debug/folders/1000/10/eventbus-3.0.0_26bd9f867c1ee5bc7e13ba795bc8d8859cb621ff/classes.dex" />
+    </item>
+
+</items>
