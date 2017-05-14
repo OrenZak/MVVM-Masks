@@ -12,7 +12,7 @@ public class App extends Application {
 
     public static String INTERNAL_IMAGES_PATH;
 
-    private boolean clear = true;
+//    private boolean clear = true;
 
     @Override
     public void onCreate() {
@@ -23,11 +23,11 @@ public class App extends Application {
         if (!new File(INTERNAL_IMAGES_PATH).exists())
             new File(INTERNAL_IMAGES_PATH).mkdir();
 
-        if (clear) {
-            File[] files = new File(INTERNAL_IMAGES_PATH).listFiles();
-            for(File file : files){
-                file.delete();
-            }
-        }
+//        if (clear) {
+//            File[] files = new File(INTERNAL_IMAGES_PATH).listFiles();
+//            for(File file : files){
+//                file.delete();
+//            }
+//        }
     }
 }
